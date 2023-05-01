@@ -1,0 +1,34 @@
+.container-fluid {
+  width: 90% !important;
+  height: 780px !important;
+  margin: auto;
+  background-color: #f5f5f5;
+}
+
+.r1CTF {
+  height: 100% !important;
+  display: flex !important;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.r1ctfC2 {
+  font-size: 68px;
+  font-weight: bold;
+}
+
+.r1ctfC2 div{
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+.r1ctfC2 div span {
+  color: #e6291c;
+}
+
+.btn-joinus {
+  --bs-btn-border-color: #e6291c !important;
+  --bs-btn-bg: #e6291c !important;
+}
