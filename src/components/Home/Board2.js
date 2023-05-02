@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import cat from './img/karina-vorozheeva-rW-I87aPY5Y-unsplash.jpg'
 
 const Board = () => {
