@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import cat from './img/andriyko-podilnyk-RCfi7vgJjUY-unsplash.jpg'
 
 const Board = () => {
   return (
@@ -12,9 +13,13 @@ const Board = () => {
             <div>
               LITTLE <span>CATS</span>
             </div>
-            <Button className="btn-joinus"  size="lg">JOIN US</Button>
+            <Button className="btn-joinus" size="lg">JOIN US</Button>
           </Col>
-          <Col>2 of 2</Col>
+          <Col>
+            <div className="c2ImgCat">
+              <Image src={cat}></Image>
+            </div>
+          </Col>
         </Row>
       </Container>
     </>
