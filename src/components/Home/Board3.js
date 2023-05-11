@@ -4,7 +4,9 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 
 const Board3 = () => {
   return (
-    <div>Board3</div>
+    <div>
+      <div>Board3</div>
+    </div>
   )
 }
 
